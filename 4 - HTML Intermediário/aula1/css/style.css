@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background-image: url("../img/background-montanha.jpg");
+    background-position: center -458px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px 0;
+    font-size: 60px;
+
+}
+
+.header img {
+    width: 120px;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 30%;
+    background-color: #a3a3a3;
+    padding: 30px;
+}
+
+.content {
+    width: 70%;
+    background-color: #d8d8d8;
+    padding: 30px;
+}
+
+.footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+}

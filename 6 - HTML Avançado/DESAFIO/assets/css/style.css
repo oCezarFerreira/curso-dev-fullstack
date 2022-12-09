@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding: 70px 0 0 0;
+    text-align: center;
+}
+
+.content img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin: 5px 0;
+}
+
+.content h2 {
+    margin: 5px 0 50px 0;
+    font-size: 35px;
+}
+
+.content h3 {
+    margin-bottom: 18px;
+    font-size: 22px;
+}
+
+.content form {
+    text-align: center;
+}
+
+.input-nome, .input-email {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    padding: 0 18px;
+    font-size: 18px;
+}
+
+.input-checkbox {
+    margin: 10px 0;
+}
+
+.input-checkbox:hover, .content form label:hover {
+    cursor: pointer;
+    user-select: none;
+}
+
+.content form label {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+    background: rgb(0, 110, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.button:hover {
+    background: rgb(0, 70, 161);
+    cursor: pointer;
+}
